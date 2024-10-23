@@ -1,0 +1,8 @@
+CREATE TABLE livros(
+`id` INT NOT NULL AUTO_INCREMENT,
+`titulo` VARCHAR(255) NOT NULL,
+`genero` VARCHAR(100),
+`ano_publicacao` INT,
+`autor` VARCHAR (255),
+PRIMARY KEY(id)
+) DEFAULT CHARSET = UTF8;
