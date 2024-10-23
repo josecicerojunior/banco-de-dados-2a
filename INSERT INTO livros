@@ -1,0 +1,3 @@
+INSERT INTO livros (id, titulo, genero, ano_publicacao, autor)
+VALUES 
+(DEFAULT, 'Informática: Conceitos e aplicações','Informática','2005','Marcelo Marçula')
